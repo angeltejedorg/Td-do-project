@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 
 import Header from "./components/Header"
 import Todo from "./components/Todo"
+import Loader from "./components/Loader"
 
 // Styles
 import "./App.css"
@@ -80,7 +81,7 @@ function App() {
         />
         ))}
       </div>
-        ) : <Header/>
+        ) : <Loader/>
       }
       
       
