@@ -1,0 +1,44 @@
+.singleTitle {
+    width: 20%;
+    background-color: #F8F9FA;
+    margin-bottom: 30px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 10px 14px 20px -3px rgba(176,176,176,0.72);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2px 5px;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    color: #554D49;
+}
+
+.singleTitle button {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 0px;
+    border-radius: 15px;
+    color: #EDEDED;
+    border-width: 0.2px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-true {
+    background-color: #35B653;
+    
+}
+
+.button-false {
+    background-color: #DC3545;
+}
+
+.singleTitle h4 {
+    margin: 0;
+}
+.singleTitle p {
+    font-size: 14px;
+}
